@@ -24,3 +24,5 @@ describe("Vehicles API", () => {
     });
   });
 });
+
+// TODO: ask about deleting files or folders from github repo if they were push on remote (git rm --cached file.txt)
