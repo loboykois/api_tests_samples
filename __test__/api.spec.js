@@ -11,18 +11,14 @@ describe("Vehicles API", () => {
       "/api/vehicles/getallmakes?format=json"
     );
 
-    const results = response.body["Results"].find(
+    const results = response.body.Results.find(
       (e) => e["Make_Name"] === "VOLKSWAGEN"
     );
-    const volkswagen = results["Make_Name"];
 
     expect(response.statusCode).toBe(200);
-    expect(volkswagen).toBe("VOLKSWAGEN");
     expect(results).toMatchObject({
       Make_ID: 482,
       Make_Name: "VOLKSWAGEN",
     });
   });
 });
-
-// TODO: ask about deleting files or folders from github repo if they were push on remote (git rm --cached file.txt)
