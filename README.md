@@ -4,12 +4,8 @@
 
 Sample of API test creating by Jest framework and Supertest library.
 
----
 
 Resource - https://vpic.nhtsa.dot.gov
-
----
-
 
 ## Running test
 
@@ -17,8 +13,6 @@ Resource - https://vpic.nhtsa.dot.gov
 - `npm install --save-dev jest`
 - `npm install supertest --save-dev`
 - `npm test`
-
----
 
 ## By author
 
