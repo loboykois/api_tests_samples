@@ -2,7 +2,14 @@
 
 ## Overview
 
-Sample of one API test creating by Jest framework and Supertest library
+Sample of API test creating by Jest framework and Supertest library.
+
+---
+
+Resource - https://vpic.nhtsa.dot.gov
+
+---
+
 
 ## Running test
 
@@ -10,6 +17,8 @@ Sample of one API test creating by Jest framework and Supertest library
 - `npm install --save-dev jest`
 - `npm install supertest --save-dev`
 - `npm test`
+
+---
 
 ## By author
 
